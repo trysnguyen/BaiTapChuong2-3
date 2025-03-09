@@ -12,7 +12,6 @@ def compressFile(filePaths, outputZip):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
-def bai55():
-    filePaths = ['test.txt']
-    outputZip = 'test.zip'
-    compressFile(filePaths, outputZip)
+filePaths = ['test.txt']
+outputZip = 'test.zip'
+compressFile(filePaths, outputZip)
